@@ -9,7 +9,7 @@ const config = {
         enableArithAbort: true,
         instancename:'SQLEXPRESS'
     },
-    port: 512181
+    port: 51218
 }
 
 module.exports = config;
