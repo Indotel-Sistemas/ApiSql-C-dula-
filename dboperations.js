@@ -1,31 +1,21 @@
 var config = require('./dbconfig');
 const sql = require('mssql');
 
-async function getUsuarios(){
-    try{
-    let pool = await sql.connect(config);
-    let padron = await pool.request().query('SELECT * from Usuarios');
-    return padron.recordsets;
-    }
-    catch(error){
-        console.log(console.error);
-    }
-}
     async function getUsuario(Cedula) {
         try {
             let pool = await sql.connect(config);
             let product = await pool.request()
-                .input('input_parameter', sql.Int, Cedula)
-                .query("SELECT * from Usuarios where Cedula = @input_parameter");
+                .input('input_parameter', sql.VarChar, Cedula)
+                .query("SELECT Cedula,nombres,apellido1,apellido2,IdSexo,FORMAT (getdate(), 'dd-MM-yy') as FechaNacimiento from PADRON where Cedula = @input_parameter");
             return product.recordsets;
     
         }
         catch (error) {
-            console.log(error);
+            console.log(console.error);
         }
 }
 
 module.exports ={
-    getUsuarios : getUsuarios,
+
     getUsuario : getUsuario
 }
