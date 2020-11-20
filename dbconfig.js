@@ -1,15 +1,15 @@
-//Conexcion a sevidor local de la base de datos MsSql
+//Conexcion a sevidor local de la base de datos Mssql
 const config = {
-    user:'Cesar',
-    password:'cesar1299',
-    server:'127.0.0.1',
-    database: 'Padron',
+    user:'cgonzalez',
+    password:'ce12345',
+    server:'SVR-DEV',
+    database: 'Padron2016',
+
     options:{
         trustedconnection: true,
         enableArithAbort: true,
-        instancename:'SQLEXPRESS'
-    },
-    port: 51218
+        instancename:'MSSQLSERVER'
+    }
 }
 
 module.exports = config;
