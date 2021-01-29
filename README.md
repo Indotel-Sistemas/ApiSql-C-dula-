@@ -1,11 +1,11 @@
 # ApiSql-C-dula-
 
 ## Objetivo:
-_Poder obtener los datos correspondiente de un usuario a través de su identificador (Cédula).
+_Poder obtener los datos correspondiente de un usuario a través de su identificador (Cédula)._
 
 ## Descripción:
-  _Esta api permite consultar la cedula de los usuarios, para poder conseguir la informacion 
-_necesaria para registrar esos datos en un sistema. 
+  _Esta api permite consultar la cedula de los usuarios, para poder conseguir la informacion_ 
+_necesaria para registrar esos datos en un sistema._ 
 
 ## Herramientas de desarrollo:
 
@@ -15,8 +15,8 @@ _necesaria para registrar esos datos en un sistema.
   *4-Postman 
 
 ## Función: 
-  _Toma información de la base datos en Sql server y los muestra a traves de la aplicación 
- _Postman, cabe destacar que son consultas realizadas de acuerdo a lo que se solicete y con
- _campo especificos, ya que un usuarios podria tener mas información de la que necesitemos.
+  _Toma información de la base datos en Sql server y los muestra a traves de la aplicación_ 
+ _Postman, cabe destacar que son consultas realizadas de acuerdo a lo que se solicete y con_
+ _campo especificos, ya que un usuarios podria tener mas información de la que necesitemos._
 
 ### Observación: Pruebas realizadas en Postman, para la verificación de su funcionamiento.
