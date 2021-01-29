@@ -9,10 +9,10 @@ _necesaria para registrar esos datos en un sistema._
 
 ## Herramientas de desarrollo ⚙️:
 
-  * [1-Node.js]
-  * [2-Javascript]
-  * [3-Sql Server]
-  * [4-Postman]
+  * Node.js
+  * Javascript
+  * Sql Server
+  * Postman
 
 ## Función ⌨️: 
   _Toma información de la base datos en Sql server y los muestra a traves de la aplicación_ 
