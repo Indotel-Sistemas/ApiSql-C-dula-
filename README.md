@@ -1,4 +1,4 @@
-# ApiSql-C-dula-
+# API para consultar cédula
 
 ## Objetivo:
 _Poder obtener los datos correspondiente de un usuario a través de su identificador (Cédula)._
