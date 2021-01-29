@@ -1,4 +1,4 @@
-# API para consultar cédula
+# API consulta (cédula).
 
 ## Objetivo:
 _Poder obtener los datos correspondiente de un usuario a través de su identificador (Cédula)._
