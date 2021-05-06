@@ -25,4 +25,7 @@ Debes estar conectado a la red de Indotel.
 
 Pruebas realizadas en Postman, para la verificación de su funcionamiento.
 
-Parametro GET: http://localhost:1240/api/usuarios/cédula. nota: cédula es poner los 11 digitos de su idetificación.
+Parametro GET: http://localhost:1240/api/usuarios/cédula. 
+
+ * nota: cédula es poner los 11 digitos de su idetificación.
+
