@@ -20,6 +20,9 @@ _necesaria para registrar esos datos en un sistema._
  _campo especificos, ya que un usuarios podria tener mas información de la que necesitemos._
 
 ### Observación: 
-*Debes estar conectado a la red de Indotel
-*Pruebas realizadas en Postman, para la verificación de su funcionamiento
-*Parametro GET: http://localhost:1240/api/usuarios/cédula. nota: cédula es poner los 11 digitos de su idetificación
+
+Debes estar conectado a la red de Indotel.
+
+Pruebas realizadas en Postman, para la verificación de su funcionamiento.
+
+Parametro GET: http://localhost:1240/api/usuarios/cédula. nota: cédula es poner los 11 digitos de su idetificación.
